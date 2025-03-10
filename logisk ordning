@@ -1,0 +1,38 @@
+1. Sätt upp projektet:
+-Skapa en ny projektmapp
+-skapa en virtuell miljö med python -m venv venv
+-Aktivera den virtuella miljön
+-Installera Flask med pip install flask
+2. Skapa serverstruktue:
+-skapa en huvudfil app.py
+-skapa mappar: static(för CSS och JavaScript) och templates(för HTML)
+3. Implementera Flask-applicationen
+- I app.py importera Flask och skapa en Flask-application
+- Definiera grundläggande routes och API-endpoints
+4. Skapa HTML -templates:
+-I templates-mappen, skapa HTML-filer för dina vyer
+-använd JInja2-templating för dynamiskt innehåll
+5. Lägg till css:
+-i static-mappen, skapa en styles,css-fil
+länka css-filen i dina HTML-templates
+6. Implementera Javascript:
+-I static mappen, skapa en script.js-fil
+-Länka javascript-filen i dina HTML-templates
+-Implementera AJAX-anrop för att interagera med API:et
+7. Utveckla API-endpoints:
+- Skapa routes för olika HttP-metoder(GET, POST, PUT ,DELETE)
+-implementera logik för att hantera data
+8. Integrera frintend med API:
+-Använd Javascript för att göra API-anrop
+-Uppdatera HTML dynamiskt baserat på API-svar
+9. Hantera felmeddelanden och validering:
+-Implementera felhantering på både server-och klientsidan
+.lägg till indata-validering i både Flask och JavaScript
+10. Testa applikationen:
+-Testa API-endpoints med verktyg som Postman
+-Testa frontend-funktionalitet i webbläsaren
+11. Optimera och förbättra:
+-Refaktorera kod vid behov
+-Förbättra användargränssnittet och användarupplevelsen
+
+
